@@ -40,11 +40,13 @@ nav{
     margin-right: 10px;
     padding-right: 0px;
     padding-left: 0px;
+    font-weight: 400;
+    padding-left: 0px;
 }
 a{
     color: black;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 10px;
     width: 35vw;
 }
  a:hover{
@@ -58,5 +60,41 @@ a{
     max-width: 1000px;
 }
 #header-section{
-    margin: 0;
+    margin-top: 25px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 200px;
 }
+#header-h{
+    margin-bottom: 25px;
+    word-wrap: break-word;
+}
+#form input[type='email']{
+    width: 100%;
+    max-width: 375px;
+    padding: 5px;  
+}
+#form input[type='submit']{
+    text-transform: uppercase;
+    font-weight: 900;
+    background-color: yellow;
+    border: 0;
+    margin-top: 10px;
+    margin-left: 100px;
+    padding: 10px;
+    cursor: pointer;
+}
+#form input[type='submit']:hover{
+    background-color: orange;
+    transition: background-color 1s;
+}
+@media (max-width: 650px) {
+    #header-section{
+        margin-top: 120px;
+    } 
+}
+
+
+
