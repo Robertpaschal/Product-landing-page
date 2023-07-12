@@ -117,7 +117,7 @@ a{
     text-align: center;
     width: calc(100%/6);
     margin: 10px;
-    padding: 25px;
+    padding:0px;
     border: 1px solid black;
 }
 @media(max-width: 800px){
